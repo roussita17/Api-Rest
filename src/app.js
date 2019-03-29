@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 //contectnaod a la bd
-mongoose.connect('mongodb://localhost/api-mongo')
+mongoose.connect('mongodb://localhost/Catalago-mongo')
  .then(db => console.log('Db conected'))
 .catch(err => console.log(err));
 
